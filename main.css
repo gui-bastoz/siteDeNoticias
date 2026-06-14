@@ -91,4 +91,7 @@ footer{
     background-color:  rgb(92, 91, 91);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
