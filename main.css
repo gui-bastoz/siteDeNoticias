@@ -19,14 +19,76 @@ header li{
     margin-right: 20px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .container{
     display: flex;
 }
 
+section{
+    padding: 20px;
+}
+
 section h2{
-    margin: 10px;
+    padding: 10px;
 }
 
 article img{
     margin: 10px;
+}
+
+article p{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px;
+    color: white;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+.sports{
+    background-color: rgb(95, 253, 95);
+}
+
+.sports button{
+    background-color: green;
+}
+
+.economy{
+    background-color: rgb(252, 229, 99);
+}
+
+.economy button{
+    background-color: orange;
+}
+
+.enterteinement{
+    background-color: rgb(255, 73, 73);
+}
+
+.enterteinement button{
+    background-color: red;
+}
+
+.tecnology{
+    background-color: rgb(84, 84, 253);
+}
+
+.tecnology button{
+    background-color: blue;
+}
+
+footer{
+    padding: 10px;
+    background-color:  rgb(92, 91, 91);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
